@@ -32,7 +32,8 @@ body {
 
 #container {
     height: 712px;
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto 0px;
     padding: 0px 24px;
 }
@@ -142,8 +143,8 @@ ul li a:hover {
     font-weight: 500;
 }
 
-/* Social-links */
 
+/* Social-links */
 #social-links {
     display: flex;
     justify-content: center;
